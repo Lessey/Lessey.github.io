@@ -11,3 +11,4 @@ Kaj sem se naučila:
 3. ko spremeniš neki, shraniš, ubiješ v cmd-ju stran in jo na novo poženeš
 4. cmd startaš z Ruby
 5. mogoče bi lahko tele alinejce začela na začetku ne na koncu.
+6. ko delaš stolpce, se morajo seštet na 12

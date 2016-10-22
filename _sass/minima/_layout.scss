@@ -1,6 +1,7 @@
 /**
  * Site header
  */
+
 .site-header {
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
@@ -17,7 +18,7 @@
     line-height: 56px;
     letter-spacing: -1px;
     margin-bottom: 0;
-    float: left;
+    text-align: center;
 
     &,
     &:visited {
@@ -88,6 +89,13 @@
     }
 }
 
+#naslov1 {
+    text-align: center;
+}
+
+#vse_strani{
+    text-align: center;
+}
 
 
 /**
