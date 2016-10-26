@@ -2,76 +2,44 @@
 layout: default
 ---
 
-<div class="row">
-  <div class="col-md-3">
-    <a href="">
-      <img src="/images/DSCN7744.jpg"/>
-    </a>
-  </div>
-  <div class="col-md-3">
-    <a href="">
-      <img src="/images/2016-03-06 12.04.48.jpg"/>
-    </a>
-  </div>
-  <div class="col-md-3">
-    <a href="">
-      <img src="/images/2016-04-25 16.10.11.jpg"/>
-    </a>
-  </div>
-  <div class="col-md-3">
-    <a href="">
-      <img src="/images/IMG_4820.jpg"/>
-    </a>
-  </div>
+<div>
+  <h1 id="welcome">
+    Welcome to my website!</h1>
+  <p>
+    Hello! I am a Flat Coated retriever named Ruj. Here you can find some information abaout me and my owner. Feel fre to browse! If you have any questions, you can find my owner's email at the bottom of the page. I am sure she will be happy to hear from you.
+  </p>
 </div>
 
 <div class="row">
-   <div class="col-md-6">
-    <img src="/images/2016-03-12 12.17.43.jpg"/>
+  <div class="col-md-5">
+    <img src="images\2016-04-30 09_19_59.jpg"/>
   </div>
-  <div class="col-md-6">
-    <h1>Welcome to my website!</h1>
 
-    <p>I'm learning about HTML and other website stuff.</p>
-  </div>
-</div>
+  <div class="col-md-3" id="info">
+  <p>Full name</p>
+  <p>Nick name</p>
+  <p>Date of birth</p>
+  <p>Color of my coat</p>
+  <p>Color of my eyes</p>
+  <p>Hips HD</p>
+  <p>Elbows ED</p>
+  <p>Eyes</p>
+  <p>Hobbies</p>
 
+ </div>
 
+ <div class="col-md-4">
+  <p>Max Black Wind of Varaždin</p>
+  <p>Ruj</p>
+  <p>26. 09. 2014</p>
+  <p>Black</p>
+  <p>Brown</p>
+  <p>A/A</p>
+  <p>0/0</p>
+  <p>Clear</p>
+  <p>Swimming, retrieving objects, long walks, playing with my dog friends, swimming, sleeping on my back, taking a bath in the puddle, drinking from the puddle. Oh, and did I mention I like swimming?</p>
+ </div>
 
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-<p>Things that will help me build websites:</p>
-
-<div class="row">
-  <div class="col-md-4">
-    <h2>HTML</h2>
-    <p>Used for content and structure of web pages.</p>
-  </div>
-  <div class="col-md-4">
-    <h2>CSS</h2>
-    <p>Defines the design of website elements.</p>
-  </div>
-  <div class="col-md-2">
-    <h2>JavaScript</h2>
-    <p>Can add cool effects to otherwise boring pages.</p>
-  </div>
-  <div class="col-md-2">
-    <h2>JavaScript</h2>
-    <p>Can add cool effects to otherwise boring pages.</p>
-  </div>
-</div>  
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+ <div class="col-md-2"></div>
 </div>
 

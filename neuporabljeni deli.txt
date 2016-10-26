@@ -1,0 +1,28 @@
+##
+link do news z datumom objave
+##
+ 
+ <h1 class="page-heading">Personall informations</h1>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+
+##
+Kaj sem se naučila?
+##
+1. vsaka stran je svoja datoteka
+2. vsak post je svoja datoteka v _post
+3. ko spremeniš neki, shraniš, ubiješ v cmd-ju stran in jo na novo poženeš
+4. cmd startaš z Ruby
+5. mogoče bi lahko tele alinejce začela na začetku ne na koncu.
+6. ko delaš stolpce, se morajo seštet na 12
