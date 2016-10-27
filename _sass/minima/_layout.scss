@@ -173,6 +173,7 @@
  */
 .page-content {
     padding: $spacing-unit 0;
+    text-align: justify;
 }
 
 .page-heading {
@@ -198,14 +199,16 @@
     font-size: 24px;
 }
 
+.info {
+    font-style: italic;
+    color: $brand-color;
+}
+
 #welcome {
     text-align: center;
     font-weight: bold;
 }
 
-#info {
-    font-weight: bold
-}
 
 /**
  * Posts

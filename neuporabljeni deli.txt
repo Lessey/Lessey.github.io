@@ -26,3 +26,34 @@ Kaj sem se naučila?
 4. cmd startaš z Ruby
 5. mogoče bi lahko tele alinejce začela na začetku ne na koncu.
 6. ko delaš stolpce, se morajo seštet na 12
+
+
+##
+Koda za prvi poskus index.html
+##
+
+
+  <p>Nick name</p>
+  <p></p>
+  <p>Color of my coat</p>
+  <p>Color of my eyes</p>
+  <p>Hips HD</p>
+  <p>Elbows ED</p>
+  <p>Eyes</p>
+  <p>Hobbies</p>
+
+ </div>
+
+ <div class="col-md-4">
+  <p>Max Black Wind of Varaždin</p>
+  <p>Ruj</p>
+  <p>26. 09. 2014</p>
+  <p>Black</p>
+  <p>Brown</p>
+  <p>A/A</p>
+  <p>0/0</p>
+  <p>Clear</p>
+  <p>Swimming, retrieving objects, long walks, playing with my dog friends, swimming, sleeping on my back, taking a bath in the puddle, drinking from the puddle. Oh, and did I mention I like swimming?</p>
+ </div>
+
+ <div class="col-md-2"></div>
