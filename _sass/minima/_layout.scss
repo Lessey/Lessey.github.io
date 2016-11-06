@@ -226,6 +226,7 @@
     font-size: 36px;
     letter-spacing: -1px;
     line-height: 1;
+    text-align: center;
 
     @include media-query($on-laptop) {
         font-size: 36px;
@@ -258,4 +259,26 @@
             font-size: 18px;
         }
     }
+}
+
+/**
+ * Tables
+ */
+
+.sire {
+    background-color: #d9e3f2;
+    color: $text-color;
+}
+
+.dam{
+    background-color: #f2d9e6;
+    color: $text-color;
+}
+
+.sire2 {
+   
+}
+
+.dam2{
+    
 }

@@ -82,8 +82,8 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-    font-weight: $heading-family;
-    font-wight: 700;
+    font-font: $heading-family;
+    font-weight: 700;
     color: $brand-color;
 }
 
@@ -197,4 +197,24 @@ pre {
     path {
         fill: $grey-color;
     }
+}
+
+/**
+ * Tables
+ */
+table {
+    border-collapse: collapse;
+    border: 3px solid $brand-color;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    border-bottom: 3px solid $brand-color;
+    font-weight: bold;
+    font-size: 18px;
 }
