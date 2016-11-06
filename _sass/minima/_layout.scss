@@ -13,8 +13,9 @@
 }
 
 .site-title {
-    font-family: Forte;
-    font-size: 28px;
+    font-family: 'Patrick Hand SC', cursive;
+    font-weight: bold;
+    font-size: 44px;
     font-weight: 300;
     line-height: 56px;
     letter-spacing: 1px;
@@ -28,7 +29,9 @@
 }
 
 .site-nav {
-    font-family: Forte;
+    font-family: 'Patrick Hand SC', cursive;
+    font-weight: bold;
+    font-size: 22px;
     letter-spacing: 1px;
     float: right;
     line-height: 56px;
@@ -107,7 +110,9 @@
 }
 
 .footer-heading {
+    font-family: $base-font-family;
     font-size: 18px;
+    font-weight: bold;
     margin-bottom: $spacing-unit / 2;
 }
 
